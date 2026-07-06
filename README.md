@@ -42,7 +42,6 @@ and read `os.environ["OPENAI_API_KEY"]` in the notebook.
 - PyMuPDF (`fitz`)
 - transformers, nltk, pandas, tabulate
 
-See `requirements.txt`.
 
 ## Author
 
