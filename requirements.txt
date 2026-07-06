@@ -1,0 +1,7 @@
+openai
+llama-index
+PyMuPDF
+transformers
+nltk
+pandas
+tabulate
