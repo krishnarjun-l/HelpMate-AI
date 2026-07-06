@@ -22,38 +22,17 @@ The insurance policy PDFs are **not included** in this repository. Supply your o
 export OPENAI_API_KEY="your-key-here"
 ```
 
-and read `os.environ["OPENAI_API_KEY"]` in the notebook. The `.gitignore` already excludes `OPENAI_API_Key.txt` and `.env` files as a safeguard.
+and read `os.environ["OPENAI_API_KEY"]` in the notebook. 
 
 ## Repository structure
 
 ```
 .
-├── notebooks/
-│   └── helpmate_ai.ipynb     # PDF ingestion, indexing, retrieval, re-ranking, generation
-├── docs/
-│   └── Documentation.pdf     # Project documentation
+├── HelpMateAIProject.ipynb 
+├── Documentation-HelpMateAIProject.pdf 
 ├── requirements.txt
 └── README.md
 ```
-
-## Getting started
-
-1. Clone the repository and set up a virtual environment:
-
-   ```bash
-   git clone https://github.com/<your-username>/HelpMate-AI-Insurance-Search.git
-   cd HelpMate-AI-Insurance-Search
-   python3 -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-2. Set your OpenAI API key as an environment variable (see above) and place your policy PDF(s) where the notebook expects them.
-
-3. Run the notebook:
-
-   ```bash
-   jupyter notebook notebooks/helpmate_ai.ipynb
-   ```
 
 ## Requirements
 
